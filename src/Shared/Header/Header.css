@@ -1,0 +1,97 @@
+.navbar-area {
+    padding: 10px 15px;
+    background-color: cornflowerblue;  
+    z-index: 10;
+    position: relative;
+}
+
+.open-nav {
+    color: white;
+    font-size: 40px;
+    transition-duration: 0.5s;
+    line-height: 0;
+    cursor: pointer;
+}
+
+.close-nav {
+    color: white;
+    font-size: 40px;
+    line-height: 0;
+    cursor: pointer;
+}
+
+.navbar {
+    width: 300px;
+    left:0px;
+    background-color: white;
+    transition-duration: 1.5s;
+    position: relative;
+    z-index: 1;
+    border-radius: 0px 0px 0px 0px;
+}
+
+/* .navbar{
+    height: 60vh;
+} */
+
+.navbar:hover{
+    background-color: cornflowerblue;
+    border-radius: 50px 0px 20px 0px;
+}
+
+.navbar .nav-link:focus, .navbar .nav-link:hover{
+    color: white;
+}
+.activeOff {
+    top: -999px;
+}
+
+.activeOpen {
+    top: 68px;
+}
+
+@media (min-width: 320px) {
+    .activeOpen {
+        top: 60px;
+    }
+    
+}
+
+@media (min-width: 480px) {
+    .activeOpen {
+        top: 60px;
+    }
+}
+
+
+@media (min-width: 576px) {
+    .activeOpen {
+        top: 61px;
+    }
+}
+
+@media (min-width: 640px) {
+    .activeOpen {
+        top: 62px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .activeOpen {
+        top: 63px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .activeOpen {
+        top: 68px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .activeOpen {
+        top: 68px;
+    }
+}

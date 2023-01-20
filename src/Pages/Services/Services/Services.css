@@ -1,0 +1,19 @@
+.services-back{
+    background-image: url('../../../assets/images/services/services-img.jpg');
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.services-back::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    opacity: 50%;
+}

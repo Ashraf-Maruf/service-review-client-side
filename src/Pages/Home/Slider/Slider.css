@@ -1,0 +1,105 @@
+.banner1,
+.banner2,
+.banner3 {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner1::before,
+.banner2::before,
+.banner3::before{
+    content:'';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    opacity: 70%;
+}
+
+.banner1 {
+    background-image: url(../../../assets/images/banner/banner-01.jpg);
+}
+
+.banner2 {
+    background-image: url(../../../assets/images/banner/banner-02.jpg);
+}
+
+.banner3 {
+    background-image: url(../../../assets/images/banner/banner-03.jpg);
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 50%;
+    left: 15%;
+    padding-top: 0;
+    padding-bottom: 0; 
+    color: #fff;
+    text-align: center;
+    margin-top: -50px;
+}
+
+@media (min-width: 320px) {
+    .banner1,
+    .banner2,
+    .banner3 {
+        min-height: 40vh;
+    }
+}
+@media (min-width: 480px) {
+    .banner1,
+    .banner2,
+    .banner3 {
+        min-height: 80vh;
+    }
+}
+
+
+@media (min-width: 576px) {
+    .banner1,
+    .banner2,
+    .banner3 {
+        min-height: 50vh;
+    }
+}
+
+@media (min-width: 640px) {
+    .banner1,
+    .banner2,
+    .banner3 {
+        min-height: 80vh;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .banner1,
+    .banner2,
+    .banner3 {
+        min-height: 85vh;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .banner1,
+    .banner2,
+    .banner3 {
+        min-height: 85vh;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .banner1,
+    .banner2,
+    .banner3 {
+        min-height: 85vh;
+    }
+
+}
